@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+#form-teste {
+    margin: 30px;
+    padding-top: 5px;
+}
+
+.container h1, h4 {
+    text-align: center;
+}
+
+.container h4 {
+    padding: 5px;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+    text-align: center;
+}
+
+
+.botao {
+    
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 15px;
+        font-size: 1.2em;
+        background-color: #59429d;
+        border: 0;
+        margin-bottom: 1em;
+        color: white;
+        padding: 0.2em, 0.6em;
+        box-shadow: 2px 2px 2px rgb(0, 0,0,0.2);
+        text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+        cursor: pointer;
+    
+}
+
+.botao:hover{
+    background: #3d1ba3;
+}
+
+input:focus {
+    outline-color: #182C61;
+}
+
+.erro-mensagem {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    display: none;
+    text-align: center;
+}
+
+#resultado {
+    background-color: green;
+    padding: 8px;
+    color:white;
+    margin-bottom: 8px;
+    text-align: center;
+    display: none;
+}
